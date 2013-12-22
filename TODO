@@ -1,6 +1,8 @@
 Use Angular (Bootstrap?)
 Look at todomvc
 Make a simple web app - a list in the page with persisting items
+Use SQLite - JSON for non-persistent data, e.g. rendering
 Items can be ticked, which applies strikeout to the item
 FEZ inspired?? 
 Palette: grey and white
+
