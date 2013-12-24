@@ -1,27 +1,30 @@
 <!doctype html>
-<html lang="en" ng-app="phonecatApp">
+<html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <title>todo wknd - your todo list, simplified.</title>
-  <link rel="stylesheet" href="css/app.css">
-</head>
+	<head>
+	  <meta charset="utf-8">
+	  <title>todo wknd - your todo list, simplified.</title>
+	  <link rel="stylesheet" href="css/app.css">
+	</head>
 
-<body>
+	<body>
 
-	<form action="" autocomplete="on">
-		Do this: You have 140 characters. Go!<br><input type="text" name="item" id="item" value="" maxlength="140"><br>	<!-- Only allow 140 characters -->
-		Importance:<br>
-		<select id = "mainlist">
-			<option value="high">Whoa!</option>
-			<option value="med">Needs to be done</option>
-			<option value="low">Do it sometime</option>
-		</select> 
-		<br><input type="submit" value="Write it down.">
-	</form>
+		<form action="" autocomplete="on">
+			Do this: You have 140 characters. Go!<br><input type="text" name="item" id="item" value="" maxlength="140"><br>	<!-- Only allow 140 characters -->
+			I need to do it by: (time)<br>
+			Importance:<br>
+			<select id = "mainlist">
+				<option value="high">Whoa!</option>
+				<option value="med">Medium</option>
+				<option value="low">Low</option>
+			</select> 
+			<br><input type="submit" value="Write it down.">
+		</form>
 
-	<ul class="items">
-	  <li>Some item linked to db</li>
-	</ul>
-</body>
+		<ul class="items">
+		  <li>Some item linked to db</li>
+		</ul>
+		
+	</body>
+
 </html>
