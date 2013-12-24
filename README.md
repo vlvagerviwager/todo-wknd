@@ -1,4 +1,4 @@
 todo-wknd
 =========
 
-Stop using weekend.txt! Simple to do list web app.
+Stop using weekend.txt! Simply pleasant todo list web app. Using Modernizr, Skeleton. 

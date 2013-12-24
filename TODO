@@ -1,9 +1,19 @@
 Use Angular (Bootstrap?)
 Look at todomvc
 Make a simple web app - a list in the page with persisting items 
-Use HTML5 STORANGE APIS - SQLite limited web support - JSON for non-persistent data, e.g. rendering
+Use HTML5 STORAGE APIS - localStorage
 Items can be ticked, which applies strikeout to the item
 
 FEZ inspired?? 
 Palette: grey and white
 
+UX:
+
+- check for localStorage support
+- if no support, pop-up overlay to inform
+- if list is empty, pop-up overlay with instructions
+- cursor to Do this box - all text fields have sample text
+
+- each item is draggable up/down
+- each item is editable (click on text)
+- each item is check-able (strikeout and fade font colour)
