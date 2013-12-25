@@ -251,9 +251,12 @@
 		font-weight: bold;
 		font-size: 13px;  }
 	select {
-		width: 220px; }
+		width: 100px; 
+		height: 30px;}
 	input[type="checkbox"] {
 		display: inline; }
+	input[type="text"] {
+		width: 250px; }
 	label span,
 	legend span {
 		font-weight: normal;
