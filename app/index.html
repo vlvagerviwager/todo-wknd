@@ -14,7 +14,7 @@
 		<!-- JS
 		================================================== -->
 		<script src="js/modernizr.js" type="text/javascript"></script>
-		<script src="js/submit.js" type="text/javascript"></script>
+		<script src="js/local-storage.js" type="text/javascript"></script>
 		
 		<!-- CSS
 		================================================== -->
@@ -35,20 +35,10 @@
 	</head>
 
 	<body>
-		<script type="text/javascript">
-			if (Modernizr.localstorage) {
-				// window.localStorage is available
-			} else {
-				// no native support for local storage
-				// Replace alert with pop-up overlay to inform user
-				alert('HTML5 local storage not supported :(');
-			}
-		</script>
-	
 		<div class="container columns">	
 			<form action="#" onSubmit="submitItem()" autocomplete="on">
 				<div class="one-third column">
-					<strong>Do this:</strong> You have 140 characters. Go!<br><input type="text" name="item" id="item" value="" maxlength="140" placeholder="Code moar">	
+					<strong>Do this:</strong> You have 140 characters. Go!<br><input type="text" name="itemText" id="itemText" value="" maxlength="140" placeholder="Code moar">	
 				</div>
 				<div class="one-third column">
 					<strong>Importance:</strong><br>
