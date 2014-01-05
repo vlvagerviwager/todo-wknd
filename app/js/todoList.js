@@ -1,9 +1,5 @@
-if (Modernizr.localstorage) {
-	// window.localStorage is available
-} else {
-	// no native support for local storage
-	// Replace alert with pop-up overlay to inform user
-	alert('HTML5 local storage not supported :(');
+if (!window.indexedDB) {
+    window.alert("Your browser doesn't support a stable version of IndexedDB. Unfortunately you will not be able to use todo-wknd :(");
 }
 
 // -- The list of items to do ================================================== 
@@ -21,5 +17,4 @@ function submitItem() {
 	var day = document.getElementById('dayList').value;
 	
 	$('#todoList').append("<li>Some thing<button class='delete'>Delete</button></li>");
-	//localStorage.setItem("bar", foo);
 }
