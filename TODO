@@ -1,7 +1,7 @@
+Use IndexedDB	http://www.html5rocks.com/en/tutorials/indexeddb/todo/	https://developer.mozilla.org/en/docs/IndexedDB/Using_IndexedDB
+
 Use Angular (Bootstrap?)
 Look at todomvc
-Make a simple web app - a list in the page with persisting items 
-Use HTML5 STORAGE APIS - localStorage
 Items can be ticked, which applies strikeout to the item
 
 FEZ inspired?? 
@@ -19,3 +19,6 @@ UX:
 - each item is draggable up/down
 - each item is editable (click on text)
 - each item is check-able (strikeout and fade font colour)
+
+Add context dropdown
+http://99u.com/articles/20556/energy-time-priority-worklife-4-new-ways-to-organize-your-to-do-list
