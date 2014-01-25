@@ -45,33 +45,32 @@
 
 	<body>
 		<div class="container columns">	
-			<form action="#" onSubmit="submitItem()" autocomplete="on">
+			<form action="#" autocomplete="on">
 				<div class="one-third column">
 					<strong>I need to...</strong> You have 140 characters. Go!<br><input type="text" name="itemText" id="itemText" value="" maxlength="140" placeholder="Code moar">	
 				</div>
 				<div class="one-third column">
 					<strong>On...</strong><br>
 					<select id = "dayList">
-						<option value="mon">Monday</option>
-						<option value="tue">Tuesday</option>
-						<option value="wed">Wednesday</option>
-						<option value="thu">Thursday</option>
-						<option value="fri">Friday</option>
-						<option value="sat">Saturday</option>
-						<option value="sun">Sunday</option>
+						<option value="Monday">Monday</option>
+						<option value="Tuesday">Tuesday</option>
+						<option value="Wednesday">Wednesday</option>
+						<option value="Thursday">Thursday</option>
+						<option value="Friday">Friday</option>
+						<option value="Saturday">Saturday</option>
+						<option value="Sunday">Sunday</option>
 						
 					</select> 
 				</div>
 				<div class="one-third column">
 					<strong>Go!</strong><br>
-					<input type="submit" id="submitButton" value="Write it down.">
+					<input type="submit" id="submitButton" value="Write it down." onclick="addTodo(); return false;">
 				</div>
 			</form>
 			
 			<div class="container column">
 				<ul id="todoList">
-					<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1 on Monday</span> <button class="delete">Delete</button></li>
-					<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2 on Sunday<button class="delete">Delete</button></li>
+					<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item on Day</li>
 				</ul>
 			</div>
 		</div>

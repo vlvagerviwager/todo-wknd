@@ -4,9 +4,6 @@ Use Angular (Bootstrap?)
 Look at todomvc
 Items can be ticked, which applies strikeout to the item
 
-FEZ inspired?? 
-Palette: grey and white
-
 grunt-uncss
 
 UX:
@@ -22,3 +19,12 @@ UX:
 
 Add context dropdown
 http://99u.com/articles/20556/energy-time-priority-worklife-4-new-ways-to-organize-your-to-do-list
+
+--- UI
+
+FEZ inspired?? 
+Palette: grey and white
+
+--- Future work
+
+Try Mongoose (mongodb)...
