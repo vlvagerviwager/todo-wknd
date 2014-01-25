@@ -115,6 +115,26 @@
 	li { line-height: 18px; margin-bottom: 12px; }
 	ul.large li { line-height: 21px; }
 	li p { line-height: 21px; }
+	
+	#todoList { 
+		list-style-type: none; 
+		margin: 0; 
+		padding: 0; 
+		width: 60%; 
+	}
+
+	#todoList li { 
+		margin: 0 3px 3px 3px; 
+		padding: 0.4em; 
+		padding-left: 1.5em; 
+		font-size: 1.4em; 
+		height: 18px; 
+	}
+
+	#todoList li span { 
+		position: absolute; 
+		margin-left: -1.3em; 
+	}
 
 /* #Images
 ================================================== */
