@@ -102,6 +102,8 @@ function renderTodo(row) {
   var items = document.getElementById("todoList");
   var li = document.createElement("li");
   li.className = "ui-state-default";
+  var span = document.createElement("span");
+  span.className = "ui-icon ui-icon-arrowthick-2-n-s";
   var a = document.createElement("a");
   var t = document.createTextNode();
   t.data = row.text;
@@ -111,6 +113,7 @@ function renderTodo(row) {
   });
   a.textContent = " [Delete]";
   
+  li.appendChild(span);
   li.appendChild(t);
   li.appendChild(a);
   items.appendChild(li);
