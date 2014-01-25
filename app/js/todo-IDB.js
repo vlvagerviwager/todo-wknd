@@ -105,8 +105,7 @@ function renderTodo(row) {
   var span = document.createElement("span");
   span.className = "ui-icon ui-icon-arrowthick-2-n-s";
   var a = document.createElement("a");
-  var t = document.createTextNode();
-  t.data = row.text;
+  var t = document.createTextNode(row.text);
 
   a.addEventListener("click", function(e) {
     todowknd.indexedDB.deleteTodo(row.id);
