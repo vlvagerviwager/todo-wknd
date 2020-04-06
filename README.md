@@ -1,8 +1,10 @@
-todo-wknd
-=========
+# todo-wknd
 
-Stop using weekend.txt! Simply pleasant todo list responsive web app. Using Skeleton, IndexedDB.
+Stop using weekend.txt! Simply pleasant todo list responsive web app. 
 
-Unfortunately this only works in Google Chrome right now.
+http://vlvagerviwager.github.io/todo-wknd/
 
-http://zky829.github.io/todo-wknd/
+## Technologies
+
+- Skeleton
+- IndexedDB
